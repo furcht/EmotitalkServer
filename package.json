@@ -1,0 +1,16 @@
+{
+  "name": "emotitalk",
+  "version": "1.0.0",
+  "description": "Websockets for EmotiTalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "author": "RV3",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "string-therapy": "^2.2.2"
+  }
+}
